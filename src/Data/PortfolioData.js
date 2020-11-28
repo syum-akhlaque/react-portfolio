@@ -24,7 +24,7 @@ const portfolio = [
         'title': 'Athena Design',
         'img': 'https://i.ibb.co/cLQqtSy/athena.jpg',
         'description': 'E-School is a simple responsive website with bootstrap with react js. Hare i focur on bootstrap design.',
-        'liveLink': 'syum-akhlaque.github.io/e-school/',
+        'liveLink': 'https://design-athena.web.app/',
         'ghLink': 'https://github.com/syum-akhlaque/athena-design',
     },
     {
