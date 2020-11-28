@@ -21,25 +21,25 @@ const portfolio = [
         'ghLink': 'https://github.com/syum-akhlaque/volunteer-network',
     },
     {
+        'title': 'Athena Design',
+        'img': 'https://i.ibb.co/cLQqtSy/athena.jpg',
+        'description': 'E-School is a simple responsive website with bootstrap with react js. Hare i focur on bootstrap design.',
+        'liveLink': 'syum-akhlaque.github.io/e-school/',
+        'ghLink': 'https://github.com/syum-akhlaque/athena-design',
+    },
+    {
+        'title': 'E-Bazar',
+        'img': 'https://i.ibb.co/Qjmx46j/ebazar.jpg',
+        'description': 'A full stack Ecommerce website. user can add or remove product from cart, place order. Admin can upload product, update porduct , check or order list, cencle or confirm a order',
+        'liveLink': 'https://e-bazar-22.netlify.app/',
+        'ghLink': 'https://github.com/syum-akhlaque/e-bazar-client',
+    },
+    {
         'title': 'E-School',
         'img': 'https://i.postimg.cc/BZDLXsPF/e-school.jpg',
         'description': 'E-School is a simple responsive website with bootstrap. Hare i focur on bootstrap design.',
         'liveLink': 'syum-akhlaque.github.io/e-school/',
         'ghLink': 'https://github.com/syum-akhlaque/e-school',
-    },
-    {
-        'title': 'Pioneer Bank',
-        'img': 'https://i.postimg.cc/V6wygj4m/pioneer-bank.jpg',
-        'description': 'Pioneer Bank is a banking website with Javascript . Mainly focus only javascript functionlity. Hare you can add deposit and withdraw your money. ',
-        'liveLink': 'https://syum-akhlaque.github.io/pioneer-bank/',
-        'ghLink': 'https://github.com/syum-akhlaque/pioneer-bank',
-    },
-    {
-        'title': 'Creative Agency',
-        'img': 'https://i.postimg.cc/C5tqTLRM/creative-agency.jpg',
-        'description': 'A full stack website for a software agency with responsive UI. Users can order and check services.Admin can add new services and new admin also. Admin can change order’s status to notify the clients about order.',
-        'liveLink': 'https://creative-agency-22.web.app/',
-        'ghLink': 'https://github.com/syum-akhlaque/creative-agency-client',
     }
 ]
 export default portfolio;
