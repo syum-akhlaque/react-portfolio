@@ -38,7 +38,7 @@ const portfolio = [
         'title': 'E-School',
         'img': 'https://i.postimg.cc/BZDLXsPF/e-school.jpg',
         'description': 'E-School is a simple responsive website with bootstrap. Hare i focur on bootstrap design.',
-        'liveLink': 'syum-akhlaque.github.io/e-school/',
+        'liveLink': 'https://syum-akhlaque.github.io/e-school/',
         'ghLink': 'https://github.com/syum-akhlaque/e-school',
     }
 ]

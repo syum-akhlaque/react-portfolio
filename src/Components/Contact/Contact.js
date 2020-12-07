@@ -24,12 +24,12 @@ const Contact = () => {
 
     return (
         <>
-        <h1 className='text-center py-5 big-text'>GET IN TOUCH</h1>
-        <div className='row '>
+        <h1 className='text-center p-5 big-text'>GET IN TOUCH</h1>
+        <div className='row p-5'>
 
             {/* ---------------left side----------------- */}
 
-            <div className="col-md-5 offset-md-1 px-2">
+            <div className="col-md-5 offset-md-1 px-2 mb-3">
                 <form onSubmit={sendEmail}>
                     <div class="form-group">
                         <input name="name" class="form-control" type="text" placeholder= 'Enter Your Name'  />
@@ -52,7 +52,7 @@ const Contact = () => {
             {/* ---------------right side----------------- */}
             <div className="col-md-5 d-flex flex-column offset-md-1 px-2">
                 <h1 style={{'fontWeight': '100'}}>Contact With Me</h1>
-                <h3 style={{'fontWeight': '100'}}>Md. Akhlaqur Rahman Siddiqui</h3> <br/>
+                <h3 className='my-2' style={{'fontWeight': '100'}}>Md. Akhlaqur Rahman Siddiqui</h3> <br/>
 
                 <h4><FontAwesomeIcon icon={faEnvelope} /> &nbsp; arssyum@gmail.com</h4>
                 <h4><FontAwesomeIcon icon={faPhoneAlt} /> 01688022039 </h4>
