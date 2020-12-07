@@ -47,17 +47,17 @@ const Home = () => {
 	        }
 	    }
 	}} />
-            <img className='mt-5' src={myImg} alt="syum akhlaque" width='350px'/>
-            <div>
+            <img className='mt-5' src='https://i.ibb.co/D4jrN0Y/image-11-4.png' alt="syum akhlaque" width='220px' height='220px'/>
+            <div className='mt-3'>
                <h2>Hi, I am Akhlaqur Rahman Siddiqui</h2>
                <h4>Programmer | Web Developer | Engineer</h4>
-               <p>I am a frontend web developer. I can provide clean code and pixel perfect design. <br/>
+               <p className='mt-4'>I am a frontend web developer. I can provide clean code and pixel perfect design. <br/>
                 I also make website more &amp; more interactive with web animations.</p>
             </div>
             <div className= 'brands-a'>
-                <a href="https://www.facebook.com/syum.akhlaque.5/"><FontAwesomeIcon icon={faFacebook} size="3x" /></a> &nbsp;  &nbsp;
-                <a href="https://www.linkedin.com/in/md-akhlaqur-rahman-siddiqui-syum-832510139/"><FontAwesomeIcon icon={faLinkedin} size="3x" /></a> &nbsp;  &nbsp;
-                <a href="https://github.com/syum-akhlaque/"><FontAwesomeIcon icon={faGithub} size="3x" /></a> 
+                <a href="https://www.facebook.com/syum.akhlaque.5/"><FontAwesomeIcon icon={faFacebook} size="2x" /></a> &nbsp;  &nbsp;
+                <a href="https://www.linkedin.com/in/md-akhlaqur-rahman-siddiqui-syum-832510139/"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a> &nbsp;  &nbsp;
+                <a href="https://github.com/syum-akhlaque/"><FontAwesomeIcon icon={faGithub} size="2x" /></a> 
             </div>
         </div>
     );

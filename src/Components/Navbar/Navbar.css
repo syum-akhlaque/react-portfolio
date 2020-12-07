@@ -1,5 +1,4 @@
 .my-nav{
-    opacity: .8;
     z-index: 0;  
 }
 
@@ -7,7 +6,29 @@
     font-size: 30px !important;
     font-weight: 900;
     text-decoration: none !important;
+    background: linear-gradient(80deg, #f9484a 0%, #fbd72b 100%);
+    background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.nav-name:hover{
+   
+    background: linear-gradient(80deg, #fbd72b 0%, #f9484a 100%);
+    background-clip: text;
+   -webkit-text-fill-color: transparent;
+    
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #fff !important;
+}
+.nav-link:hover{
+    background: linear-gradient(80deg, #f9484a 0%, #fbd72b 100%);
+    
+}
+.resume-btn{
+    background: linear-gradient(80deg, #f9484a 0%, #fbd72b 100%);
+    color: #000 !important;
+    font-weight: 500 !important;
+}
+.resume-btn:hover{
+    background: linear-gradient(80deg, #fbd72b 0%, #f9484a 100%);
 }

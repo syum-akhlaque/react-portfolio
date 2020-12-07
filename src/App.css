@@ -2,3 +2,10 @@ body{
   background-color: #232741 !important;
   color: white !important;
 }
+.theme-btn{
+  color: #ffffff !important;
+  background: linear-gradient(80deg, #f9484a 0%, #fbd72b 100%);
+}
+.theme-btn:hover{
+  background: linear-gradient(80deg, #fbd72b 0%, #f9484a 100%);
+}

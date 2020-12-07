@@ -1,4 +1,26 @@
 .portfolio .card-body {
     height: 190px;
+    
 }
 /* 220 */
+
+.single-cards:hover{
+    box-shadow: 0px 0px 10px #ffaa2d;
+    transform: scale(1.03); 
+    overflow: hidden; 
+}
+.single-cards img:hover {
+    width: 100% !;
+    transition-duration: 1s;
+    transform: scale(1.05);
+} 
+.single-cards a{
+    color: #000000 !important;
+    font-weight: bold;
+    background: linear-gradient(80deg, #f9484a 0%, #fbd72b 100%);
+}
+.single-cards a:hover{
+    transform: scale(1.03); 
+    /* color: #ffffff !important; */
+    background: linear-gradient(80deg, #fbd72b 0%, #f9484a 100%);
+}

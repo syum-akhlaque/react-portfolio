@@ -8,7 +8,7 @@ const About = () => {
         <div className='d-flex mt-5 row '>
             <div className= 'mt-5 col-md-5 offset-md-1 px-3'> 
                 <h1 className= 'px-3'><b>HI</b>, Let Me <span className='text-warning'>Introduce</span> </h1>
-                <img className='mt-5' src={myImg} alt="syum akhlaque" width='350px'/>
+                <img className='mt-5' src='https://i.ibb.co/D4jrN0Y/image-11-4.png' alt="syum akhlaque" width='350px'/>
             </div>
             <div className= 'mt-5 col-md-5'>
                 <h4 className= 'mt-sm-5 py-sm-5 px-3'>

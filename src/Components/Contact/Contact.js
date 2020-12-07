@@ -29,7 +29,7 @@ const Contact = () => {
 
             {/* ---------------left side----------------- */}
 
-            <div className="col-md-5 offset-md-1 px-3">
+            <div className="col-md-5 offset-md-1 px-2">
                 <form onSubmit={sendEmail}>
                     <div class="form-group">
                         <input name="name" class="form-control" type="text" placeholder= 'Enter Your Name'  />
@@ -45,12 +45,12 @@ const Contact = () => {
                         <textarea class="form-control" rows="8" name="message" placeholder='Your message'></textarea>
                     </div>
 
-                    <button className="btn text-white bg-warning px-4 mr-md-5 " type='submit' >Send</button>
+                    <button className="btn theme-btn px-5 mr-md-5 " type='submit' >Send</button>
                 </form>
             </div>
 
             {/* ---------------right side----------------- */}
-            <div className="col-md-5 d-flex flex-column offset-md-1">
+            <div className="col-md-5 d-flex flex-column offset-md-1 px-2">
                 <h1 style={{'fontWeight': '100'}}>Contact With Me</h1>
                 <h3 style={{'fontWeight': '100'}}>Md. Akhlaqur Rahman Siddiqui</h3> <br/>
 

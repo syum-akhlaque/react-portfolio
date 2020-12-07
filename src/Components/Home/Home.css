@@ -1,6 +1,10 @@
 .brands-a a{
     color: white !important;
 }
+.brands-a a:hover{
+    color: #ffaa2d!important;
+}
+
 .particles{
     z-index: -4;
     position: absolute;
