@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Portfolio.css'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+
 const PortfolioItems = (props) => {
     const {description , title, img, liveLink, ghLink} = props.portfolio;
-
+ //   
+   useEffect(()=>{
+        Aos.init({ duration:2000});
+   },[])
     return (
-        <div className='col-md-4 mb-3  p-3'>
-            <div className="card portfolio single-cards" >
+        <div className='col-md-4 mb-3 img-fluid p-3' data-aos="fade-up" >
+            <div className="card portfolio single-cards"  >
                 <img className="card-img-top"src={img} alt=""/>
                 <div class="card-body">
                     <h3 className="card-title text-secondary text-center">{title}</h3>

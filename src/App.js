@@ -12,6 +12,8 @@ import Contact from './Components/Contact/Contact';
 import Navbar1 from './Components/Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Blog from './Components/Blog/Blog';
+import "animate.css/animate.min.css";
+
 
 
 function App() {

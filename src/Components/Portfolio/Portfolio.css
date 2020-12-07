@@ -1,3 +1,6 @@
+.animated{
+    animation-delay: 2s;
+}
 .portfolio .card-body {
     height: 190px;
     

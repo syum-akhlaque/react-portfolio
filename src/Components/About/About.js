@@ -1,6 +1,8 @@
 import React from 'react';
 import myImg from '../../Images/syum.png';
 import './About.css'
+import { animations } from 'react-animation'
+
 
 const About = () => {
     return (
@@ -8,10 +10,10 @@ const About = () => {
         <div className='d-flex mt-5 row '>
             <div className= 'mt-5 col-md-5 offset-md-1 px-3'> 
                 <h1 className= 'px-3'><b>HI</b>, Let Me <span className='text-warning'>Introduce</span> </h1>
-                <img className='mt-5' src='https://i.ibb.co/D4jrN0Y/image-11-4.png' alt="syum akhlaque" width='350px'/>
+                <img className='mt-5' src='https://i.ibb.co/D4jrN0Y/image-11-4.png' alt="syum akhlaque" width='350px' style={{animation: animations.bounceIn}}/>
             </div>
             <div className= 'mt-5 col-md-5'>
-                <h4 className= 'mt-sm-5 py-sm-5 px-3'>
+                <h4 className= 'mt-sm-5 py-sm-5 px-3' style={{animation: animations.popIn}}>
                      Passionate web app developer. Always try to grab the new features of technology. Last few years made myself skilled in the field of web application development. Acquired to maintain strong interpersonal relationships with teammates. I am passionate about providing care to my work, which keeps me motivated and excited about doing my best work.
                 </h4>
             </div>
